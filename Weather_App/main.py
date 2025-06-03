@@ -13,7 +13,7 @@ def get_weather():
         icon_label.config(image="")
         return
 
-    api_key = 'facac232091a37a604da46146ac1383a'  # Your API key here
+    api_key = 'facac****************ac1383a'  # Your API key here
     url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
 
     try:
